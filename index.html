@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10%;
+  background-image: url("pngtree-restaurant-food-poster-image_174124.jpeg");
+}
+
+/* Style the header */
+.header {
+  background-image: url("marmol-blanco-veneciano.jpeg");
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #D33332;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #D33332;
+  color: yellow;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  height: 500px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+
+  .current {
+     background-color: white;
+  }
+
+  
+}
+</style>
+</head>
+<body>
+  
+ <div class="header">
+  <h1></h1>
+  <p></p>
+</div>
+
+<div class="topnav">
+    
+    <a href="" class="current"></a>
+      <a href="sobremi.html">SOBRE MI</a>
+    
+      <a href="contacto.html">CONTACTO</a>
+      <div style="margin: 0%;">
+        <img src="logotipo comida mexi.png" style="width:18%" image-align="center" alt="Teriyaki sauce" />
+      </div>
+     
+      
+    
+</div>
+
+<img src="comidamexicana.png" style="width: 100%">
+
+<div class="row">
+  <div class="column">
+   <a href="tamalesdulcesysalados.html">
+<img src="19545.jpeg" alt="index.html" style="width:280px;height:200px;">
+</a>
+<h2>Tamales dulces y salados</h2>
+      <h3>Cocina mexicana/Guisado</h3>
+    <p>Los tamales son comidos a cualquier hora del día, tanto en el desayuno como en el almuerzo o en la merienda, ya que es un alimento cuyo sabor e ingredientes se adaptan a las costumbres de alimentación de una gran parte de la población. </p>
+  
+
+    
+  </div>
+  
+  <div class="column">
+     <a href="pozolerojo.html">
+    <img src="image.1592429867593.jpg" alt="pozolerojo.html" style="width:280px;height:200px;">
+</a>
+<h2>Pozole rojo</h2>
+      <h3>Cocina tradicional mexicana/Sopas</h3>
+    <p>El pozole original se prepara con maíz cacahuazintle seco y con parte de la cabeza del puerco. El maíz seco agrega un sabor incomparable a esta sopa, pero hoy en día es más común que se use como sustituto el maíz que se vende en lata, por la conveniencia de que ya está cocido.</p>
+
+  </div>
+
+<div class="column">
+   <a href="enchiladasverdes.html">
+    <img src="recetas-tradicionales-mexicanas-y-sencillas-de-cocinar.jpeg" alt="enchiladasverdes.html" style="width:280px;height:200px;">
+</a>
+    <h2>Enchiladas verdes</h2>
+      <h3>Picante/Rojas y verdes</h3>
+    <p>
+Las enchiladas verdes se preparan con tomate, además de llevar cilantro o epazote en su preparación. También pueden ser rellenas de pollo o carne deshebrada. Las enchiladas suizas son una variedad de las verdes, pero se diferencian porque su salsa es preparada con crema y son gratinadas con queso manchego.</p>
+  </div>
+
+
+  <div class="row">
+  <div class="column">
+  <a href="huevosdivorciados.html">
+    <img src="Huevos-divorciados-560x420.jpeg" alt="huevosdivorciados.html" style="width:280px;height:200px;">
+</a>
+    <h2>Huevos divorciados</h2>
+      <h3>Picante/Rojo y verde</h3>
+    <p>
+Resultado de imagen para huevos divorciados
+En México un desayuno clásico de las loncherías y de los restaurantes, son los huevos divorciados, un platillo que consiste en dos huevos estrellados que se colocan al centro del plato, mientras que uno se baña de salsa roja y el otro de salsa verde, separados por un poco de frijoles negros de la olla.
+</p>
+  </div>
+      
+  
+  
+  <div class="column">
+    <a href="molerojoconpollo.html">
+    <img src="foto-el-gourmet.jpeg" alt="molerojoconpollo.html" style="width:280px;height:200px;">
+</a>
+    <h2>Mole rojo con pollo</h2>
+      <h3>Cocina tradicional/Pollo</h3>
+    <p>
+El mole poblano con pollo es uno de los guisos mexicanos más sonados y utilizados para todo tipo de celebraciones: cumpleaños, bodas, bautizos, Día de las Madres, Día del Padre, etc.</p>
+  </div>
+  
+
+  <div class="column">
+     <a href="Guacamole.html">
+    <img src="GettyImages-175505559-2.jpeg" alt="Guacamole.html" style="width:280px;height:200px;">
+</a>
+    <h2>Guacamole</h2>
+      <h3>Cocina tradicional/Aguacate</h3>
+    <p>
+El guacamole es una receta casera estupenda como tentempié, primer plato o incluso como acompañante. Te mostramos la receta casera más fácil y otras variantes para disfrutar de su sabor.</p>
+
+</div>
+ <video src="foodflicks video promocional videos de comida.mp4"controls style="width: 1140px;"></video>
+</div>
+<div class="topnav">
+    
+     <h1 style="color: white;">Busca mas recetas en nuestra página</h1>
+    
+    
+</div>
+
+
+
+</body>
+</html>
